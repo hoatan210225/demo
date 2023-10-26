@@ -33,7 +33,7 @@ $row = $result->fetch_assoc();
             
             <div class="row mb-3">
                 <div class="col-12">
-                    <label for="storeID" class="col-sm-2">Product ID </label>
+                    <label for="storeID" class="col-sm-2">Store ID </label>
                     <div class="col-sm-10">
                         <input id="productID" type="text" name="Id" class="form-control" value="<?= $row['Id'] ?>" require>
                     </div>
